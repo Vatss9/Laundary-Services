@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 70px;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.img2 {
+  height: 400px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 1rem;
+}
+
+.user-name {
+  border: 1px solid lightcyan;
+  border-radius: 8px;
+  width: 70px;
+  height: 40px;
+  align-items: center;
+  align-content: center;
+  background: lightcyan;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  color: black;
+}
+
+.user-name {
+  font-weight: 500;
+  cursor: pointer;
+  color: darkgray;
+}
+
+.user-name:hover {
+  color: black;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 70px;
+  margin: 15px 70px;
+}
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  font-family: sans-serif;
+}
+
+span {
+  color: blue;
+}
+
+p {
+  font-family: sans-serif;
+  margin: 0px 0px 30px;
+  color: darkgray;
+}
+
+button {
+  width: 210px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: deepskyblue;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.left a{
+  color: white;
+  text-decoration: none;
+}
+
+.achievements {
+  display: flex;
+  gap: 40px;
+  background-color: #3da9fc;
+  align-items: center;
+  padding: 30px 20px;
+  margin: 30px 70px;
+  justify-content: center;
+}
+
+.achievement-stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  font-size: 14px;
+  margin: 0;
+  color: #0a0a0a;
+}
+
+.stat {
+  padding: 0 20px;
+  border-right: 1px solid white;
+}
+
+
+.section-services{
+  display: flex;
+justify-content: center;
+gap: 20px;
+background: #f5f7fa;
+padding: 15px 70px;
+}
+
+.card {
+background: #fff;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+padding: 20px;
+}
+
+.section-left, .section-right {
+display: flex;
+flex-direction: column;
+gap: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: white;
+}
+.section-left {
+width: 55%;
+}
+
+.service {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.service p {
+font-size: 16px;
+}
+.price {
+color: #1a73e8;
+font-weight: bold;
+}
+.btn {
+background: #f1f3f4;
+border: none;
+padding: 8px 14px;
+border-radius: 8px;
+font-size: 14px;
+cursor: pointer;
+display: flex;
+align-items: center;
+gap: 6px;
+}
+.btn.remove {
+background: #ffecec;
+color: #e53935;
+}
+.cart-table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 12px;
+}
+.cart-table th, .cart-table td {
+text-align: left;
+padding: 8px;
+border-bottom: 1px solid #eee;
+font-size: 14px;
+}
+.total {
+font-weight: bold;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+font-size: 16px;
+}
+
+.btn{
+  background-color: lightgrey;
+    height: 45px;
+    width: 135px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3{
+  text-align: center;
+    margin-bottom: 15px;
+}
+
+.card {
+  width: 350px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+.card input::placeholder {
+  color: #ccc;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* .form-group input {
+  flex: 1;
+} */
+
+.book-btn {
+  width: 100%;
+  padding: 14px;
+  background: #5a5af8; 
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background: #4848d6;
+}
+
+#confirmation-msg{
+  color: green;
+  margin-top: 10px;
+  display: none;
+}
+   
+.section-quality{
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 100px;
+    text-align: center;
+    gap: 15px;
+}
+
+.icon-small{
+  height: 40px;
+  width: 40px;
+}
+
+.section-newsletter{
+  display: flex;
+    margin: 30px 70px;
+    padding: 30px 70px;
+    background-color: #1e90ff;
+}
+
+/* .section-newsletter .form{
+  display: flex;
+  gap: 10px;
+} */
+
+.subs-btn{
+  background-color: white;
+  color: #1e90ff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section-newsletter .form input[type="text"],
+.section-newsletter .form input[type="email"]{
+  height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.section-footer{
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 100px;
+}
+
+.section-footer p{
+      font-family: sans-serif;
+    margin: 0px 0px 10px;
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.section-footer .social-icons{
+  margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+  .nav-links a {
+    display: none;
+  }
+  .img2{
+    margin-top: 50px;
+    height: 300px;
+  }
+.section-services{
+  flex-direction: column;
+}
+.achievements{
+  flex-direction: column;
+}
+.achievements h1{
+  font-size: 1.5rem;
+}
+.section-left {
+    width: 100%;
+}
+.card {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+.section-quality{
+      display: flex;
+    flex-direction: column;
+}
+.section-newsletter{
+  flex-direction: column;
+  text-align: center;
+}
+button{
+  width: 185px;
+}
+.section-footer{
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section-newsletter h1{
+  font-size: 1.5rem;
+}
+}
+
+
