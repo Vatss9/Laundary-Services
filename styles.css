@@ -357,9 +357,12 @@ font-size: 16px;
   }
 .section-services{
   flex-direction: column;
+  padding: 0;
+  margin-top: 40px;
 }
 .achievements{
   flex-direction: column;
+  margin: 0;
 }
 .achievements h1{
   font-size: 1.5rem;
@@ -382,6 +385,8 @@ font-size: 16px;
 .section-newsletter{
   flex-direction: column;
   text-align: center;
+  margin: 0;
+  padding: 20px;
 }
 button{
   width: 185px;
@@ -393,6 +398,9 @@ button{
 }
 .section-newsletter h1{
   font-size: 1.5rem;
+}
+.form{
+  margin-top: 20px;
 }
 }
 
